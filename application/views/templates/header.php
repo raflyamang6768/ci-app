@@ -9,6 +9,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="<?= base_url(); ?>style.css">
+
+
+
     <title><?php echo $judul; ?></title>
 </head>
 
@@ -23,6 +29,7 @@
                 <div class="navbar-nav">
                     <a class="nav-link" href="<?= base_url(); ?>">Home <span class="sr-only">(current)</span></a>
                     <a class="nav-link" href="<?= base_url(); ?>mahasiswa">Mahasiswa</a>
+                    <a class="nav-link" href="<?= base_url(); ?>">Peoples</a>
                     <a class="nav-link" href="#">About</a>
                 </div>
             </div>
